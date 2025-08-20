@@ -1,11 +1,43 @@
-# Dossier environnement virtuel python3
-venv/
+# Distributions / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Variables d'environnement
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Sources complilées #
-###################
+# Pyenv
+.python-version
+
+# PyBuilder
+target/
+
+# Sphinx documentation
+docs/_build/
+
+# Sources complilées
 *.com
 *.class
 *.dll
@@ -13,9 +45,11 @@ venv/
 *.o
 *.so
 
+# Compilations
+__pycache__/
+
 # Packages #
-############
-# iIl est préférable de décompresser ces fichiers et de valider la source brute
+# Il est préférable de décompresser ces fichiers et de valider la source brute
 # car Git dispose de ses propres méthodes de compression intégrées.
 *.7z
 *.dmg
@@ -26,14 +60,19 @@ venv/
 *.tar
 *.zip
 
-# LJournaux et BDD #
-######################
+# Journaux et BDD
 *.log
 *.sql
 *.sqlite
+pip-log.txt
+pip-delete-this-directory.txt
 
-# fichiers générés par les OSs #
-######################
+# Django stuff
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Fichiers générés par les OSs
 .DS_Store
 .DS_Store?
 ._*
@@ -41,3 +80,24 @@ venv/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Mkdocs documentation
+/site
+
+# Traduction
+*.mo
+*.pot
+
+# Tests unitaires / Rapport coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/

@@ -1,12 +1,17 @@
 site_name: jenkins.stallaf.net
 site_url: https://jenkins.stallaf.net/
+repo_url: https://github.com/stallaf/traduction-en-francais-de-la-documentation-de-JENKINS
+repo_name: stallaf/traduction-en-francais-de-la-documentation-de-JENKINS
 site_author: SF aka stallaf
 site_description: Traduction en français de la documentation de JENKINS.
 
 theme: 
   name: material
+  language: fr
   logo: assets/avatar100px.jpg
   favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Dark Mode
     - scheme: slate
@@ -14,7 +19,6 @@ theme:
         icon: material/weather-sunny
         name: Dark mode
       accent: deep purple
-
     # Light Mode
     - scheme: default
       toggle:
@@ -23,24 +27,63 @@ theme:
       accent: deep orange
   font:
     code: Red Hat Mono
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.follow
+    - navigation.top
+    - navigation.footer
+
 markdown_extensions:
+# Python Markdown
+  - abbr
+  - admonition
   - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+  - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - admonition
-  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  version:
+    provider: mike
+    alias: true
+    default:
+      - latest
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      
+  - git-authors
+
 copyright: Copyright &copy; 2025 SF aka stallaf
