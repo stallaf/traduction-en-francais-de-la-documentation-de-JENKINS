@@ -3,3 +3,41 @@ venv/
 
 # Variables d'environnement
 .env
+
+# Sources complilées #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# iIl est préférable de décompresser ces fichiers et de valider la source brute
+# car Git dispose de ses propres méthodes de compression intégrées.
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# LJournaux et BDD #
+######################
+*.log
+*.sql
+*.sqlite
+
+# fichiers générés par les OSs #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
