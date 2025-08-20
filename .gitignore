@@ -1,0 +1,5 @@
+# Dossier environnement virtuel python3
+venv/
+
+# Variables d'environnement
+.env
