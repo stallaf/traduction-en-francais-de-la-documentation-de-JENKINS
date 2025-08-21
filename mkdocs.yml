@@ -10,8 +10,23 @@ theme:
   language: fr
   logo: assets/avatar100px.jpg
   favicon: assets/favicon.ico
-  icon:
-    repo: fontawesome/brands/github
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
   palette:
     # Dark Mode
     - scheme: slate
@@ -27,17 +42,9 @@ theme:
       accent: deep orange
   font:
     code: Red Hat Mono
-  features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
-    - navigation.tracking
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
-    - toc.follow
-    - navigation.top
-    - navigation.footer
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
 # Python Markdown
@@ -80,10 +87,32 @@ extra:
       - latest
 
 plugins:
+  - git-committers:
+    enabled: true
+    repository: stallaf/traduction-en-francais-de-la-documentation-de-JENKINS
+    branch: main
+    token: !ENV GH_TOKEN
   - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
-      
+    type: date
+    fallback_to_build_date: false
+    enable_creation_date: true
+    enabled: true
+  - glightbox:
+    touchNavigation: false
+    loop: false
+    effect: zoom
+    width: 100%
+    height: auto
+    zoomable: true
+    draggable: true
   - git-authors
+  - search:
+    separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
 copyright: Copyright &copy; 2025 SF aka stallaf
+
+nav:
+  - index.md 
+  - Manuel d'utilisation:
+    - Présentation: manuel-utilisateur-presentation.md
+    - Installation Jenkins: installation-jenkins.md
