@@ -1,25 +1,43 @@
+# Projet
 site_name: jenkins.stallaf.net
 site_url: https://jenkins.stallaf.net/
-repo_url: https://github.com/stallaf/traduction-en-francais-de-la-documentation-de-JENKINS
-repo_name: stallaf/traduction-en-francais-de-la-documentation-de-JENKINS
 site_author: SF aka stallaf
 site_description: Traduction en français de la documentation de JENKINS.
 
+# Dépôt
+repo_url: https://github.com/stallaf/traduction-en-francais-de-la-documentation-de-JENKINS
+repo_name: stallaf/traduction-en-francais-de-la-documentation-de-JENKINS
+
+# Thème
 theme: 
   name: material
   language: fr
   logo: assets/avatar100px.jpg
   favicon: assets/favicon.ico
+  palette:
+  # Mode sombre
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Mode sombre
+      accent: deep purple
+    # Mode clair
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Mode clair
+      accent: deep orange
+  font:
+    code: Roboto Mono
   features:
-    - content.action.edit
-    - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.tooltips
-    - navigation.tabs
-    - navigation.sections
     - navigation.footer
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -27,92 +45,55 @@ theme:
     - search.suggest
     - toc.follow
 
-  palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      accent: deep purple
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      accent: deep orange
-  font:
-    code: Red Hat Mono
-
-extra_css:
-  - stylesheets/extra.css
-
-markdown_extensions:
-# Python Markdown
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - toc:
-      permalink: true
-
-  # Python Markdown Extensions
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-
+# Personnalisation
 extra:
   version:
     provider: mike
     alias: true
     default:
       - latest
+extra_css:
+  - stylesheets/extra.css
 
+# Extensions
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Plugins
 plugins:
-  - git-committers:
-    enabled: true
-    repository: stallaf/traduction-en-francais-de-la-documentation-de-JENKINS
-    branch: main
-    token: !ENV GH_TOKEN
-  - git-revision-date-localized:
-    type: date
-    fallback_to_build_date: false
-    enable_creation_date: true
-    enabled: true
-  - glightbox:
-    touchNavigation: false
-    loop: false
-    effect: zoom
-    width: 100%
-    height: auto
-    zoomable: true
-    draggable: true
+  - search
   - git-authors
-  - search:
-    separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
+# Copyright
 copyright: Copyright &copy; 2025 SF aka stallaf
 
+# Navigation
 nav:
   - index.md 
   - Manuel d'utilisation:
     - Présentation: manuel-utilisateur-presentation.md
     - Installation Jenkins: installation-jenkins.md
+    - Docker: installation-docker.md
