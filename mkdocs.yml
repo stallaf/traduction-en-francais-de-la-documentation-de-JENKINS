@@ -97,3 +97,5 @@ nav:
     - Présentation: manuel-utilisateur-presentation.md
     - Installation Jenkins: installation-jenkins.md
     - Docker: installation-docker.md
+    - Kubernetes: installation-kubernetes.md
+    - Linux: installation-linux.md
