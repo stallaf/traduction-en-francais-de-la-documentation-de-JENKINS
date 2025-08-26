@@ -99,3 +99,4 @@ nav:
     - Docker: installation-docker.md
     - Kubernetes: installation-kubernetes.md
     - Linux: installation-linux.md
+    - macOS: installation-macos.md
