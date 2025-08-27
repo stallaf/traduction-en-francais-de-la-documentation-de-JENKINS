@@ -130,7 +130,7 @@ sudo systemctl daemon-reload
 
 ### Versions hebdomadaires
 
-Une nouvelle version est produite chaque semaine pour fournir des corrections de bogues et des fonctionnalités aux utilisateurs et aux développeurs de plugins. Elle peut être installée à partir du référentiel yum [redhat](https://pkg.jenkins.io/redhat/.
+Une nouvelle version est produite chaque semaine pour fournir des corrections de bogues et des fonctionnalités aux utilisateurs et aux développeurs de plugins. Elle peut être installée à partir du référentiel yum [redhat](https://pkg.jenkins.io/redhat/).
 
 ``` bash title="BASH"
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
