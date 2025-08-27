@@ -103,3 +103,4 @@ nav:
     - macOS: installation-macos.md
     - Windows: installation-windows.md
     - Autres systèmes: installation-autres-systemes.md
+    - fichier WAR: installation-war.md
