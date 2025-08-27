@@ -104,3 +104,6 @@ nav:
     - Windows: installation-windows.md
     - Autres systèmes: installation-autres-systemes.md
     - fichier WAR: installation-war.md
+    - Autres conteneurs de servlet: installation-autres-conteneurs.md
+    - Installations hors ligne: installation-hors-ligne.md
+    - Paramètres initiaux: installation-parametres-initiaux.md
