@@ -81,6 +81,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.tabbed:
       alternate_style: true
+  - tables
 
 # Plugins
 plugins:
@@ -101,3 +102,4 @@ nav:
     - Linux: installation-linux.md
     - macOS: installation-macos.md
     - Windows: installation-windows.md
+    - Autres systèmes: installation-autres-systemes.md
