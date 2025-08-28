@@ -37,7 +37,6 @@ theme:
     - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
-    - navigation.sections
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -96,7 +95,8 @@ nav:
   - index.md 
   - Manuel d'utilisation:
     - Présentation: manuel-utilisateur-presentation.md
-    - Installation Jenkins: installation-jenkins.md
+  - Installation Jenkins:
+    - Présentation: installation-presentation.md
     - Docker: installation-docker.md
     - Kubernetes: installation-kubernetes.md
     - Linux: installation-linux.md
@@ -107,3 +107,5 @@ nav:
     - Autres conteneurs de servlet: installation-autres-conteneurs.md
     - Installations hors ligne: installation-hors-ligne.md
     - Paramètres initiaux: installation-parametres-initiaux.md
+  - Informations sur la plateforme:
+    - Présentation: plateforme-presentation.md
