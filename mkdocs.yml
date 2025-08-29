@@ -118,3 +118,5 @@ nav:
     - Mise à niveau vers Java 21: plateforme-maj-java-21.md
   - Utilisation de Jenkins:
     - Présentation: utilisation-presentation.md
+    - Meilleures Pratiques: utilisation-meilleures-pratiques.md
+    - Travailler avec des Projets: utilisation-projets.md
