@@ -113,3 +113,5 @@ nav:
     - Politique d'Assistance Linux: plateforme-linux.md
     - Politique d'Assistance Windows: plateforme-windows.md
     - Compatibilité avec les Navigateurs: plateforme-navigateurs.md
+    - Politique d'Assistance des Conteneurs Servlet: plateforme-servlet.md
+    - Mise à niveau vers Java 17: plateforme-maj-java-17.md
