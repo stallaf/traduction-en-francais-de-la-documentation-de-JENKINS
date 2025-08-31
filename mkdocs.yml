@@ -130,3 +130,4 @@ nav:
     - API d'Accès à Distance: utilisation-api-acces-a-distance.md
     - Insuffisance de l'Exécuteur: utilisation-insuffisance-executeur.md
     - Utilisation des agents Jenkins: utilisation-agents-jenkins.md
+    - Utilisation de JMeter avec Jenkins: utilisation-jmeter.md
