@@ -133,4 +133,4 @@ nav:
     - Utilisation de JMeter avec Jenkins: utilisation-jmeter.md
     - Stockage enfichable: utilisation-stockage-enfichable.md
   - Pipeline :
-    Présentation: pipeline-presentation.md
+    - Présentation: pipeline-presentation.md
