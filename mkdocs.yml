@@ -61,6 +61,7 @@ markdown_extensions:
       custom_checkbox: true
   - admonition
   - attr_list
+  - md_in_html
   - footnotes
   - toc:
       permalink: true
@@ -134,3 +135,4 @@ nav:
     - Stockage enfichable: utilisation-stockage-enfichable.md
   - Pipeline :
     - Présentation: pipeline-presentation.md
+    - Commencer avec Pipeline: pipeline-commencer.md
