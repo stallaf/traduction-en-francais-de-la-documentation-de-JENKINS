@@ -137,3 +137,4 @@ nav:
     - Présentation: pipeline-presentation.md
     - Commencer avec Pipeline: pipeline-commencer.md
     - Utilisation d'un fichier Jenkinsfile: pipeline-jenkinsfile.md
+    - Exécution des Pipelines: pipeline-execution.md
