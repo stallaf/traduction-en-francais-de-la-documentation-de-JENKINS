@@ -136,9 +136,9 @@ nav:
   - Pipeline :
     - Présentation: pipeline-presentation.md
     - Commencer avec Pipeline: pipeline-commencer.md
-    - Utilisation d'un fichier Jenkinsfile: pipeline-jenkinsfile.md
+    - Utilisation d'un Jenkinsfile: pipeline-jenkinsfile.md
     - Exécution des Pipelines: pipeline-execution.md
-    - Branches et demandes d'extraction: pipeline-branches.md
+    - Branches et <i>Pull Requests</i>: pipeline-branches.md
     - Utilisation de Docker avec Pipeline : pipeline-docker.md
-    - Extension avec des bibliothèques partagées: pipeline-bibliotheques-partagees.md
-     
+    - Extension avec des Bibliothèques Partagées: pipeline-bibliotheques-partagees.md
+    - Outils de Développement dePpipelines: pipeline-outils.md 
