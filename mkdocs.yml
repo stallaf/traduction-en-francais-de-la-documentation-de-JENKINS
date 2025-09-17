@@ -141,4 +141,5 @@ nav:
     - Branches et <i>Pull Requests</i>: pipeline-branches.md
     - Utilisation de Docker avec Pipeline : pipeline-docker.md
     - Extension avec des Bibliothèques Partagées: pipeline-bibliotheques-partagees.md
-    - Outils de Développement dePpipelines: pipeline-outils.md 
+    - Outils de Développement dePpipelines: pipeline-outils.md
+    - Syntaxe Pipeline: pipeline-syntaxe.md
