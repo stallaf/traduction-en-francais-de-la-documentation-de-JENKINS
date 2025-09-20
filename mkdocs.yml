@@ -91,6 +91,13 @@ plugins:
 # Copyright
 copyright: Copyright &copy; 2025 SF aka stallaf
 
+# Non visible
+not_in_nav: |
+  - LISEZ_MOI.md
+  - CONTRIBUTION.md
+  - CODE_DE_CONDUITE.MD
+  - LICENSE.md
+
 # Navigation
 nav:
   - index.md 
@@ -143,3 +150,4 @@ nav:
     - Extension avec des Bibliothèques Partagées: pipeline-bibliotheques-partagees.md
     - Outils de Développement dePpipelines: pipeline-outils.md
     - Syntaxe Pipeline: pipeline-syntaxe.md
+    - Pipeline en tant que code: pipeline-comme-code.md

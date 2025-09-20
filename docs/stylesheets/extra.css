@@ -29,3 +29,7 @@
     --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3); */
   }
 
+.petite-police {
+  font-size: small;
+}
+
