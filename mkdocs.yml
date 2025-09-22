@@ -151,3 +151,4 @@ nav:
     - Outils de Développement dePpipelines: pipeline-outils.md
     - Syntaxe Pipeline: pipeline-syntaxe.md
     - Pipeline en tant que code: pipeline-comme-code.md
+    - Meilleures pratiques concernant Pipelines: pipeline-meilleures-pratiques.md
