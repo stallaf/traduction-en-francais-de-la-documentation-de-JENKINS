@@ -152,3 +152,4 @@ nav:
     - Syntaxe Pipeline: pipeline-syntaxe.md
     - Pipeline en tant que code: pipeline-comme-code.md
     - Meilleures pratiques concernant Pipelines: pipeline-meilleures-pratiques.md
+    - Pipelines à échelle variable: pipeline-a-echelle-variable.md
