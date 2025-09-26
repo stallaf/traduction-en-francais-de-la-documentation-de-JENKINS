@@ -79,6 +79,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.keys
+  - pymdownx.blocks.caption
   - pymdownx.tabbed:
       alternate_style: true
   - tables
