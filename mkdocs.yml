@@ -151,3 +151,5 @@ nav:
   - Blue Ocean:
     - Présentation: blue-ocean-presentation.md
     - Commencez avec Blue Ocean: blue-ocean-commencer.md
+    - Création d'un Pipeline: blue-ocean-creation-pipeline.md
+    - Tableau de bord: blue-ocean-tableau-de-bord.md
