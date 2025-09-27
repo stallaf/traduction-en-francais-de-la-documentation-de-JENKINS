@@ -156,3 +156,5 @@ nav:
     - Vue des activités: blue-ocean-vue-des-acitivites.md
     - Vue détaillée de l'exécution du Pipeline: blue-ocean-vue-detaillee-execution-pipeline .md
     - Editeur Pipeline: blue-ocean-editeur-pipeline.md
+  - Gestion de Jenkinsfile:
+    - Présentation: gestion-presentation.md

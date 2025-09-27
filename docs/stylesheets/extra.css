@@ -36,3 +36,12 @@
 .fa-pencil::before {
   content:"\f040"
 }
+.fa-plus::before {
+  content:"\f067"
+}
+.fa-triangle-exclamation::before {
+  content:"\f071"
+}
+
+
+
