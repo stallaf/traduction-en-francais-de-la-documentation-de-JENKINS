@@ -1,0 +1,1 @@
+# blue-ocean-vue-detaillee-pipeline.md

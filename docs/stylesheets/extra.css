@@ -19,4 +19,20 @@
 .couleur-introduction {
   color:lightslategray;
 }
-
+.fa {
+  display:inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+.fa-play:before {
+  content:"\f04b"
+}
+.fa-history::before {
+  content:"\f1da"
+}
+.fa-pencil::before {
+  content:"\f040"
+}
