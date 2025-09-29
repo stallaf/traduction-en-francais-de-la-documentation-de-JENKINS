@@ -158,3 +158,4 @@ nav:
     - Editeur Pipeline: blue-ocean-editeur-pipeline.md
   - Gestion de Jenkinsfile:
     - Présentation: gestion-presentation.md
+    - Configuration du système: gestion-configuration-du-systeme.md
