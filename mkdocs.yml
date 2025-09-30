@@ -164,3 +164,5 @@ nav:
     - Gestion des Plugins: gestion-plugins.md
     - A propos de Jenkins: gestion-a-propos-de-jenkins.md
     - Information Système: gestion-information-systeme.md
+    - Fonctionnalités Jenkins contrôlées par les propriétés système: gestion-proprietes-systeme.md
+    
