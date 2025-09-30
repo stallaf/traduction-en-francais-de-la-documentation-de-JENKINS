@@ -161,3 +161,4 @@ nav:
     - Configuration du système: gestion-configuration-du-systeme.md
     - Configuration en tant que code: gestion-cac.md
     - Gestion des Outils: gestion-outils.md
+    - Gestion des Plugins: gestion-plugins.md 
