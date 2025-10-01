@@ -165,4 +165,6 @@ nav:
     - A propos de Jenkins: gestion-a-propos-de-jenkins.md
     - Information Système: gestion-information-systeme.md
     - Fonctionnalités Jenkins contrôlées par les propriétés système: gestion-proprietes-systeme.md
-    
+    - Modifier le fuseau horaire du système: gestion-modifier-le-fuseau-horaire.md
+    - CLI Jenkins: gestion-cli.md
+    - Console de Script: gestion-console.md

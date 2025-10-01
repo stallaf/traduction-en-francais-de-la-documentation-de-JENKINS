@@ -42,6 +42,26 @@
 .fa-triangle-exclamation::before {
   content:"\f071"
 }
+.fa-cadenas:before {
+  content:"\f023"
+}
+.tag {
+    display: inline-block;
+    border: 1px solid #666;
+    background-color: #eee;
+    color: #333;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0 0.5rem;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-transform: capitalize;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
 
 
 
