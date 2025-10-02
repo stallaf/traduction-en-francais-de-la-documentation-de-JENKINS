@@ -168,3 +168,4 @@ nav:
     - Modifier le fuseau horaire du système: gestion-modifier-le-fuseau-horaire.md
     - CLI Jenkins: gestion-cli.md
     - Console de Script: gestion-console.md
+    - Script Groovy Hook: gestion-script-groovy-hook.md
