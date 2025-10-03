@@ -174,3 +174,4 @@ nav:
     - Utilisateurs: gestion-utilisateurs.md
     - Thèmes pour l'interface utilisateur: gestion-themes-interface.md
     - Contenu utilisateur: gestion-contenu-utilisateur.md
+    - Processus de Génération à partir de la Compilation: gestion-generation.md
