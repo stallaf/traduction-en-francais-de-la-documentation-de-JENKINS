@@ -183,5 +183,6 @@ nav:
     - Isolation du Contrôleur: securite-isolation-du-controleur.md
     - Sécurisation des compilations: securite-securisation-des-compilations.md
     - Protection CSRF: securite-protection-csrf.md
-    - Rendu du contenu utilisateur: securite-rendu-du-contenu-utilisateur.md
-    - Contrôle d'accès pour les constructions: securite-controle-acces.md
+    - Rendu du Contenu Utilisateur: securite-rendu-du-contenu-utilisateur.md
+    - Contrôle d'Accès pour les Constructions: securite-controle-acces-construction.md
+    - Gestion des variables d'environnement: securite-variables-environnement.md
