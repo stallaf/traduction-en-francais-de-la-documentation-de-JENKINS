@@ -182,3 +182,4 @@ nav:
     - Gestion de la Sécurité: securite-gestion.md
     - Isolation du Contrôleur: securite-isolation-du-controleur.md
     - Sécurisation des compilations: securite-securisation-des-compilations.md
+    - Protection CSRF: securite-protection-csrf.md
