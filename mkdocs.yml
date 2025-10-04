@@ -178,3 +178,4 @@ nav:
   - Sécuriser Jenkinsfile:
     - Présentation: securite-presentation.md
     - Contrôle d'Accès: securite-controle-acces.md
+    - Sécuriser Jenkins: securite-securiser-jenkins.md
