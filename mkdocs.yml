@@ -176,4 +176,5 @@ nav:
     - Contenu utilisateur: gestion-contenu-utilisateur.md
     - Processus de Génération à partir de la Compilation: gestion-generation.md
   - Sécuriser Jenkinsfile:
-    -Présentation: securite-presentation.md
+    - Présentation: securite-presentation.md
+    - Contrôle d'Accès: securite-controle-acces.md
