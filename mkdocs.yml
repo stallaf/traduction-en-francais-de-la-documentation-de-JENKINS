@@ -187,4 +187,5 @@ nav:
     - Contrôle d'Accès pour les Constructions: securite-controle-acces-construction.md
     - Gestion des variables d'environnement: securite-variables-environnement.md
     - Formatage des balises: securite-formatage-des-balises.md
-    -Sécurisation des informations d'identification SCM pour les dossiers d'organisation et les pipelines multibranches: securite-securisation-des-informations-identification.md
+    - Sécurisation des informations d'identification SCM pour les dossiers d'organisation et les pipelines multibranches: securite-securisation-des-informations-identification.md
+    - Services et ports exposés: securite-services-et-ports-exposes.md
