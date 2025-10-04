@@ -189,3 +189,4 @@ nav:
     - Formatage des balises: securite-formatage-des-balises.md
     - Sécurisation des informations d'identification SCM pour les dossiers d'organisation et les pipelines multibranches: securite-securisation-des-informations-identification.md
     - Services et ports exposés: securite-services-et-ports-exposes.md
+    - Informations d'Identification: securite-informations-identification.md
