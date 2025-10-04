@@ -183,3 +183,4 @@ nav:
     - Isolation du Contrôleur: securite-isolation-du-controleur.md
     - Sécurisation des compilations: securite-securisation-des-compilations.md
     - Protection CSRF: securite-protection-csrf.md
+    - Rendu du contenu utilisateur: securite-rendu-du-contenu-utilisateur.md
