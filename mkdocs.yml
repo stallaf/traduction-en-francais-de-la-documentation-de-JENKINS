@@ -197,3 +197,4 @@ nav:
     - Administration de Jenkins sur Kubernetes: administration-systeme-kubernetes.md
     - Gestion de Jenkins avec Chef: administration-systeme-chef.md
     - Gestion de Jenkins avec Puppet: administration-systeme-puppet.md 
+    - Affichage des journaux: administration-systeme-journaux.md
