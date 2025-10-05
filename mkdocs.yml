@@ -192,3 +192,4 @@ nav:
     - Informations d'Identification: securite-informations-identification.md
   - Administration Système:
     - Présentation: administration-systeme-presentation.md
+    - Sauvegarde/Restauration de Jenkins: administration-systeme-sauv-rest-jenkins.md
