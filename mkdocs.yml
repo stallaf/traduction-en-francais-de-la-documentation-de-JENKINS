@@ -195,4 +195,5 @@ nav:
     - Sauvegarde/Restauration de Jenkins: administration-systeme-sauv-rest-jenkins.md
     - Surveillance de Jenkins: administration-systeme-surveillance-jenkins.md
     - Administration de Jenkins sur Kubernetes: administration-systeme-kubernetes.md
-    - Gérer Jenkins avec Chef: administration-systeme-gerer-jenkins-avec-chef.md
+    - Gestion de Jenkins avec Chef: administration-systeme-chef.md
+    - Gestion de Jenkins avec Puppet: administration-systeme-puppet.md 
