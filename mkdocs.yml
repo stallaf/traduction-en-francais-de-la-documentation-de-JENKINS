@@ -198,4 +198,5 @@ nav:
     - Gestion de Jenkins avec Chef: administration-systeme-chef.md
     - Gestion de Jenkins avec Puppet: administration-systeme-puppet.md 
     - Affichage des journaux: administration-systeme-journaux.md
-    - Authentification des Clients Scriptés: administration-systeme-authentification-clients-scriptes.md 
+    - Authentification des Clients Scriptés: administration-systeme-authentification-clients-scriptes.md
+    - Configuration proxy inverse: administration-systeme-configuration-proxy-inverse.md
