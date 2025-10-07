@@ -212,4 +212,5 @@ nav:
     - Authentification des Clients Scriptés: administration-systeme-authentification-clients-scriptes.md
     - Configuration proxy inverse: administration-systeme-configuration-proxy-inverse.md
     - Proxy inversé - Problèmes: administration-systeme-proxy-inverse-problemes.md
+    - Gestion des services systemd : administration-systeme-gestion-systemd.md
 
