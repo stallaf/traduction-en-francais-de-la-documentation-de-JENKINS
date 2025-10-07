@@ -102,7 +102,7 @@ not_in_nav:
   administration-systeme-reverse-proxy-squid.md
   administration-systeme-reverse-proxy-iis.md
   administration-systeme-reverse-proxy-iptables.md
-  
+
 # Navigation
 nav:
   - index.md 
@@ -211,4 +211,5 @@ nav:
     - Affichage des journaux: administration-systeme-journaux.md
     - Authentification des Clients Scriptés: administration-systeme-authentification-clients-scriptes.md
     - Configuration proxy inverse: administration-systeme-configuration-proxy-inverse.md
+    - Proxy inversé - Problèmes: administration-systeme-proxy-inverse-problemes.md
 
