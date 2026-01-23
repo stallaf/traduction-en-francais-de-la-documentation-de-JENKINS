@@ -214,5 +214,6 @@ nav:
     - Proxy inversé - Problèmes: administration-systeme-proxy-inverse-problemes.md
     - Gestion des services systemd: administration-systeme-gestion-systemd.md
     - FIPS-140: administtation-systeme-fips.md
+    - Réinitialiser le mot de passe administrateur Jenkins: reinitialiser-mot-de-passe-admin-jenkins.md
     
 
